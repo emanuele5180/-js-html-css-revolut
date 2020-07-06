@@ -20,6 +20,11 @@ ul li{
 a {
   text-decoration: none;
   color: grey;
+
+}
+
+a:hover {
+  color: black;
 }
 
 /* HEADER */
@@ -30,13 +35,21 @@ a {
   justify-content: space-between;
   height: 50px;
   width: 100%;
-  background-color: lightgrey;
+  background-color: rgb(243, 244, 245);
 
 }
 
 .headnavbar-left, .headnavbar-right {
   display: flex;
 
+}
+
+.headnavbar-left li a{
+  padding-right: 30px;
+}
+
+.headnavbar-right li a{
+  padding-right: 30px;
 }
 
 
@@ -46,9 +59,32 @@ a {
 .nav-main {
   height: 50px;
   width: 100%;
-  background-color: lightblue;    /*debug*/
+  /* background-color: lightblue;    /*debug*/ */
 }
 .nav-main-list {
   display: flex;
 
+}
+
+.nav-main-logo {
+  font-family: 'Roboto 700',sans-serif;
+  
+
+}
+
+/* JUMBO */
+
+.jumbo {
+  display: flex;
+}
+
+img {
+  height: 500px;
+
+}
+.jumbo-left {
+  width:50%;
+}
+.jumbo-right {
+  width:50%;
 }
