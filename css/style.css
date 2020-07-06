@@ -1,7 +1,15 @@
+
+/* GENERALI */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding: 0 10%;
+
 }
 
 ul li{
@@ -12,21 +20,33 @@ a {
   text-decoration: none;
 }
 
-
-/* navbar dell'header */
+/* HEADER */
+/* NAVBAR HEADER */
 
 .headnavbar {
+  display: flex;
+  justify-content: space-between;
   height: 50px;
   width: 100%;
   background-color: lightgrey;
-  display: flex;
+
 }
 
-/* navbar del main */
-.nav-main-list {
+.headnavbar-left, .headnavbar-right {
+  display: flex;
+
+}
+
+
+/* MAIN */
+/* NAVBAR MAIN */
+
+.nav-main {
   height: 50px;
   width: 100%;
   background-color: lightblue;    /*debug*/
+}
+.nav-main-list {
   display: flex;
 
 }
