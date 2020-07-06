@@ -14,10 +14,12 @@
 
 ul li{
   list-style: none;
+  line-height: 50px;
 
 }
 a {
   text-decoration: none;
+  color: grey;
 }
 
 /* HEADER */
