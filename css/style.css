@@ -3,3 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+ul li{
+  list-style: none;
+
+}
+a {
+  text-decoration: none;
+}
+
+
+/* navbar dell'header */
+
+.headnavbar {
+  height: 50px;
+  width: 100%;
+  background-color: lightgrey;
+  display: flex;
+}
+
+/* navbar del main */
+.nav-main-list {
+  height: 50px;
+  width: 100%;
+  background-color: lightblue;    /*debug*/
+  display: flex;
+
+}
