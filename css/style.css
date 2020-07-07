@@ -25,6 +25,7 @@ a {
 
 a:hover {
   color: black;
+
 }
 
 /* HEADER */
@@ -49,7 +50,7 @@ a:hover {
 }
 
 .headnavbar-right li a{
-  padding-right: 30px;
+  padding-left: 30px;
 }
 
 
@@ -59,6 +60,10 @@ a:hover {
 .nav-main {
   height: 50px;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
   /* background-color: lightblue;    /*debug*/ */
 }
 .nav-main-list {
@@ -79,10 +84,24 @@ a:hover {
   padding-right: 50px;
 
 }
-
-#navbutton {
-  align-self: flex-end;
+.nav-main-dropdown {
+  position:relative;
 }
+.nav-main-dropdown li a:hover{
+  display: block;
+}
+.nav-main-dropdown ul{
+  width: 100px;
+  height: 100px;
+  border: 1px grey solid;
+  border-radius: 10px;
+  position:absolute;
+  display: none;
+  z-index: 50;
+}
+
+
+
 
 /* JUMBO */
 
