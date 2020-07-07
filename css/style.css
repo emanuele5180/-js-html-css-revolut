@@ -28,6 +28,13 @@ a:hover {
 
 }
 
+.hidden {
+  display: none
+}
+.active {
+  display: block;
+}
+
 
 /* HEADER */
 /* NAVBAR HEADER */
@@ -102,15 +109,11 @@ a:hover {
   border: 1px grey solid;
   border-radius: 10px;
   position:absolute;
-  display: none;
   z-index:50;
   top: 35px;
   left:-20px;
 }
 
-.active {
-  display: block;
-}
 
 
 #navbutton {
@@ -129,15 +132,29 @@ a:hover {
 
 .jumbo {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.jumbo-left {
+  width:50%;
+}
+
+#title {
+  font-size: 90px;
+}
+.jumbo-left p {
+  font-size: 25px;
+  color: grey;
+}
+
+.jumbo-right {
+  width:50%;
 }
 
 img {
   height: 500px;
+  width: auto;
 
-}
-.jumbo-left {
-  width:50%;
-}
-.jumbo-right {
-  width:50%;
 }
