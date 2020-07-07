@@ -91,6 +91,11 @@ a:hover {
 .nav-main-dropdown {
   position:relative;
 }
+
+/* .dropdown-menu {
+  position: absolute;
+  top: 10px;
+} */
 /* .nav-main-dropdown:hover ul{
   display: block;
 } */
@@ -100,8 +105,10 @@ a:hover {
   border: 1px grey solid;
   border-radius: 10px;
   position:absolute;
-  display: none;
+  /* display: none; */
   z-index:50;
+  top: 35px;
+  left:-20px;
 }
 
 
