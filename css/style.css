@@ -64,12 +64,24 @@ a:hover {
 .nav-main-list {
   display: flex;
 
+
 }
 
-.nav-main-logo {
-  font-family: 'Roboto 700',sans-serif;
-  
+.nav-main-list li{
+  padding-right: 30px;
 
+
+}
+#nav-main-logo {
+  font-family: 'Roboto 700',sans-serif;
+  font-size: 30px;
+  color: black;
+  padding-right: 50px;
+
+}
+
+#navbutton {
+  align-self: flex-end;
 }
 
 /* JUMBO */
