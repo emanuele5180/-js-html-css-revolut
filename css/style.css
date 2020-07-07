@@ -28,9 +28,6 @@ a:hover {
 
 }
 
-.active {
-  display: block;
-}
 
 /* HEADER */
 /* NAVBAR HEADER */
@@ -100,17 +97,31 @@ a:hover {
   display: block;
 } */
 .nav-main-dropdown ul{
-  width: 100px;
-  height: 100px;
+  width: auto;
+  height: auto;
   border: 1px grey solid;
   border-radius: 10px;
   position:absolute;
-  /* display: none; */
+  display: none;
   z-index:50;
   top: 35px;
   left:-20px;
 }
 
+.active {
+  display: block;
+}
+
+
+#navbutton {
+  padding: 10px;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
 
 
 
