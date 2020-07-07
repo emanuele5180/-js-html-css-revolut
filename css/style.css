@@ -28,6 +28,10 @@ a:hover {
 
 }
 
+.active {
+  display: block;
+}
+
 /* HEADER */
 /* NAVBAR HEADER */
 
@@ -87,9 +91,9 @@ a:hover {
 .nav-main-dropdown {
   position:relative;
 }
-.nav-main-dropdown li a:hover{
+/* .nav-main-dropdown:hover ul{
   display: block;
-}
+} */
 .nav-main-dropdown ul{
   width: 100px;
   height: 100px;
@@ -97,7 +101,7 @@ a:hover {
   border-radius: 10px;
   position:absolute;
   display: none;
-  z-index: 50;
+  z-index:50;
 }
 
 
