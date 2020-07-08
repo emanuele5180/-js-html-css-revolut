@@ -162,16 +162,22 @@ a:hover {
 .jumbo-right img {   /*immagine sfondo*/
   height: 500px;
   width: auto;
+
+}
+#Posizionamento{
   position: relative;
+}
+#icon_play {
+  position: absolute;
+  top:45%;
+  left:45%;
 
 }
 .jumbo-right i {
-  font-size:60px;
-  position: absolute;
-  top:50%;
-  
+  font-size:50px;
   background-color: white;
   border-radius: 50%;
+
 
 
 }
