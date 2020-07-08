@@ -153,6 +153,10 @@ a:hover {
 
 }
 
+#conto i, #conto h5{
+  display: inline-block;
+}
+
 .jumbo-right {
   width:50%;
   display: flex;
