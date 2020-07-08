@@ -220,3 +220,15 @@ a:hover {
   color: grey;
 
 }
+
+@media all and ( max-width:932px ) {
+
+  .headnavbar {
+    display: none;
+  }
+
+  .nav-main-list:{
+    display: none;
+  }
+
+}
