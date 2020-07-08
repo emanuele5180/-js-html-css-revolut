@@ -5,6 +5,7 @@
     <title>revolut</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -90,6 +91,20 @@
             <div class="jumbo-left">
               <h1 id="title">Ottieni di più dai tuoi fondi</h1>
               <p>Cambia denaro senza commissioni nascoste. Acquista Crypto e oro, oppure effettua una compravendita di azioni a partire da $ 1 e gestisci il tuo denaro con l'analisi della spesa. Unisciti a più di 10 milione di clienti Revolut.</p>
+              <form class="inserisci-e-inizia" action="index.html" method="post">
+                <select id="prefissi" name="prefissi">
+                  <option value="italia">+39</option>
+                  <option value="francia">+40</option>
+                  <option value="germania">+38</option>
+                  <option value="spagna">+42</option>
+                </select>
+                <input id="numero_di_tel" type="tel" name="phone_number" value="" placeholder="Numero di telefono">
+                <span id="startbutton"><a href="#">Inizia</a></span>
+              </form>
+
+
+
+
               <!-- telefono e bottone -->
               <!-- apri un conto -->
 
@@ -99,7 +114,7 @@
 
             <div class="jumbo-right">
               <img class="RevolutCell" src="https://assets.revolut.com/media/index/EU/home.png" alt="Revolut main screen" >
-
+              <i class="far fa-play-circle"></i>
 
 
             </div>

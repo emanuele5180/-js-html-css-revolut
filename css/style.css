@@ -104,7 +104,7 @@ a:hover {
   display: block;
 } */
 .nav-main-dropdown ul{
-  width: auto;
+  min-width: auto;
   height: auto;
   border: 1px grey solid;
   border-radius: 10px;
@@ -132,13 +132,16 @@ a:hover {
 
 .jumbo {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 
 .jumbo-left {
   width:50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #title {
@@ -147,14 +150,28 @@ a:hover {
 .jumbo-left p {
   font-size: 25px;
   color: grey;
+
 }
 
 .jumbo-right {
   width:50%;
+  display: flex;
+  justify-content: center;
 }
 
-img {
+.jumbo-right img {   /*immagine sfondo*/
   height: 500px;
   width: auto;
+  position: relative;
+
+}
+.jumbo-right i {
+  font-size:60px;
+  position: absolute;
+  top:50%;
+  
+  background-color: white;
+  border-radius: 50%;
+
 
 }
