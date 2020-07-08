@@ -120,6 +120,7 @@ a:hover {
 .nav-main-dropdown ul li{
   display: block;
   white-space: nowrap;
+  padding: 0 10px;
 }
 
 
@@ -200,11 +201,22 @@ a:hover {
   left:45%;
 
 }
+/* #icon_play a{
+  color: white;
+
+} */
+
 .jumbo-right i {
   font-size:50px;
   background-color: white;
   border-radius: 50%;
 
+}
 
+.jumbo-right i:hover {
+  font-size:55px;
+  filter: drop-shadow(0 0 0.20rem grey);
+  transition-duration: 0.1s;
+  color: grey;
 
 }
