@@ -96,6 +96,9 @@ a:hover {
   position:relative;
 
 }
+#hamburger{
+  display: none;
+}
 
 /* .dropdown-menu {
   position: absolute;
@@ -248,6 +251,10 @@ a:hover {
   }
   #conto{
     display: none;
+  }
+
+  #hamburger {
+    display: inline-block;
   }
 
   /* .jumbo-left {
