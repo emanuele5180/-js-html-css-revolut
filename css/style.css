@@ -227,7 +227,12 @@ a:hover {
     display: none;
   }
 
-  .nav-main-list:{
+  .nav-main-list :not(:first-child){
+    display: none;
+
+  }
+
+  #navbutton{
     display: none;
   }
 
