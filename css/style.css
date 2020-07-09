@@ -236,4 +236,27 @@ a:hover {
     display: none;
   }
 
+  .jumbo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inserisci-e-inizia {
+    display: none;
+  }
+  #conto{
+    display: none;
+  }
+
+  /* .jumbo-left {
+    width:100%;
+    display: block;
+  }
+  .jumbo-right {
+    width:100%;
+    display: block;
+  } */
+
 }
